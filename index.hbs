@@ -6,7 +6,7 @@
     {{#if @site.cover_image}}
             <section class="hero">
         <div class="hero-content">
-            <h1 class="post-title animated fadeInUp delay-1{{#if @site.logo}}blog-logo{{/if}}">{{#if @site.logo}}<img src="{{@site.logo}}" alt="Blog Logo" />{{else}}{{@site.title}}{{/if}}</h1>
+            <h1 class="post-title animated fadeInUp delay-1{{#if @site.logo}}blog-logo{{/if}}">{{#if @site.logo}}<img src="{{@site.logo}}" alt="Blog Logo" />{{!else}}{{!@site.title}}{{!/if}}</h1>
             <p class="blog-data animated fadeInUp delay-2"><span class="description">{{@site.description}}</span></p>
         </div>
     </section>

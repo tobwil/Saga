@@ -948,8 +948,8 @@ hr {
         -webkit-mask-image: url(../images/github.svg);
                 mask-image: url(../images/github.svg); }
       .header .header--top nav.blog-navigation ul li.nav-linkedin-icon a:before {
-        -webkit-mask-image: url(../images/linkedin.svg);
-                mask-image: url(../images/linkedin.svg); }
+        -webkit-mask-image: url(../images/linkedin.png);
+                mask-image: url(../images/linkedin.png); }
       .header .header--top nav.blog-navigation ul li.nav-youtube-icon a:before {
         -webkit-mask-image: url(../images/youtube.svg);
                 mask-image: url(../images/youtube.svg); }
